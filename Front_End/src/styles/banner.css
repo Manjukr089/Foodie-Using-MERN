@@ -1,0 +1,22 @@
+.infoo {
+    height: 450px;
+    background-image: url(D:\MERN_Project\Front_End\public\images\banner.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    filter: brightness(60%);
+}
+
+.topp {
+    height: 450px;
+    background-image: url(D:\MERN_Project\Front_End\public\images\banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%);
+}
+
+.bann h1 {
+    filter: brightness(100%);
+    filter: contrast(100%);
+}
+

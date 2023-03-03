@@ -1,0 +1,13 @@
+# In terminal install the below commands
+# for back-end
+npm init : to initialize 
+npm i express
+npm i mongoose
+npm i cors
+npm i bcrypt
+
+# for Font-end
+npm i
+npm react-bootstrap bootstrap
+npm i react-router-dom@6
+npm i axios
