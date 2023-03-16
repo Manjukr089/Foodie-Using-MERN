@@ -51,7 +51,7 @@ app.post('/login',(req,res)=>{
 //! posting the data from signUp page
 app.post('/signUp', async (req, res) => {
     //!For hash password
-    const hashedPassword = await bcrypt.hash(req.body.password, saltRounds);
+    // const hashedPassword = await bcrypt.hash(req.body.password, saltRounds);
 
     //! User : model name
     User.findOne({ email: req.body.email }, (err, userData) => {
@@ -88,6 +88,18 @@ app.get('/foods',async(req,res)=>{
         console.log(err);
     }
 })
+//! To count users
+app.get('/users',async(req,res)=>{
+    try {
+        const users = await User.find()
+        res.json(users)
+    } catch (err) {
+        console.log(err);
+    }
+})
+
+
+  
 
 //! for single data-fetch
 app.get('/foods/:id',async(req,res)=>{

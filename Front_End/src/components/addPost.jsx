@@ -38,21 +38,21 @@ let navigate = useNavigate()
                     <h1>Add Post</h1>
                     <form action="" onSubmit={addPost} className="bg-light ">
                          <div className=" form-group ">
-                            <label className="form-label" htmlFor="">Author</label>
+                            <label className="form-label" htmlFor="">Hotel</label>
                             <input type="text" 
                             className="form-control mb-2"
-                            placeholder="Enter the author name"
+                            placeholder="Enter the hotel name"
                             name="name"
                             onChange={(e) => setAuthor(e.target.value)} 
                             />
 
                         </div>
                         <div className="title form-group">
-                        <label className="form-label" htmlFor="">Title</label>
+                        <label className="form-label" htmlFor="">Food</label>
 
                             <input type="text"
                             className="form-control mb-2"
-                            placeholder="Enter the title"
+                            placeholder="Enter the food name"
                             name="title"
                              onChange={(e) => setTitle(e.target.value)} 
                               />

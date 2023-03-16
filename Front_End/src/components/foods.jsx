@@ -15,7 +15,7 @@ const Foods = () => {
           setPosts(data);
         };
         fetchData();
-      }, []); // specify an empty array as the second argument
+      }, []);
       
     return ( 
         <div className="foods ">
