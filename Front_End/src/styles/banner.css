@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .infoo {
     height: 450px;
     background-image: url(D:\MERN_Project\Front_End\public\images\banner.jpg);
@@ -7,6 +10,7 @@
     filter: brightness(60%);
 }
 
+/*! for addPost page  */
 .topp {
     height: 450px;
     background-image: url(D:\MERN_Project\Front_End\public\images\banner3.jpg);

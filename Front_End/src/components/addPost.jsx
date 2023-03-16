@@ -33,7 +33,7 @@ let navigate = useNavigate()
                 <h1 className=" text text-center text-light fw-bold" style={{marginTop:'300px'}}>Add Your Post</h1>
             </div>
             <div className="under my-3 d-flex">
-                <img className=" col-lg-6 ms-4"height={600} src="/images/order.jpg" alt="" />
+                <img className=" col-lg-6 ms-4"height={600}  src="/images/order.jpg" alt="" />
                 <div className="post col-4 ms-5">
                     <h1>Add Post</h1>
                     <form action="" onSubmit={addPost} className="bg-light ">
