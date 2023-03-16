@@ -6,7 +6,7 @@ npm i mongoose
 npm i cors
 npm i bcrypt
 
-# for Font-end
+# for Front-end
 npm i
 npm react-bootstrap bootstrap
 npm i react-router-dom@6
