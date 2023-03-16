@@ -1,5 +1,5 @@
 # In terminal install the below commands
-# for back-end
+# for Back-end
 npm init : to initialize 
 npm i
 npm i express
