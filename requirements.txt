@@ -1,6 +1,7 @@
 # In terminal install the below commands
 # for back-end
 npm init : to initialize 
+npm i
 npm i express
 npm i mongoose
 npm i cors
