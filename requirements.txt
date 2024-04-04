@@ -1,14 +1,14 @@
 # In terminal install the below commands
 # for Back-end
-npm init : to initialize 
-npm i
-npm i express
-npm i mongoose
-npm i cors
-npm i bcrypt
+#npm init : to initialize 
+#npm i
+#npm i express
+#npm i mongoose
+#npm i cors
+#npm i bcrypt
 
 # for Front-end
-npm i
-npm react-bootstrap bootstrap
-npm i react-router-dom@6
-npm i axios
+#npm i
+#npm react-bootstrap bootstrap
+#npm i react-router-dom@6
+#npm i axios
